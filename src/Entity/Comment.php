@@ -32,14 +32,22 @@ use Symfony\Component\Validator\Constraints as Assert;
  *          "get",
  *          "post"={
  *              "security"="is_granted('IS_AUTHENTICATED_FULLY')",
- *              "controller"=App\Controller\Api\CommentCreateController::class
+ *              "controller"=App\Controller\Api\CommentCreateController::class,
+ *              "denormalization_context"={"groups":{"create:comment"}}
  *           }
  *
  *     },
- *     itemOperations={"get"={
- *          "normalization_context"={"groups"={"read:comment", "read:full:comment"}}
- *     },
- *     "put"={"security"="is_granted('EDIT_COMMENT', object)"}
+ *     itemOperations={
+ *         "get"={
+ *             "normalization_context"={"groups"={"read:comment", "read:full:comment"}}
+ *         },
+ *         "put"={
+ *             "security"="is_granted('EDIT_COMMENT', object)",
+ *              "denormalization_context"={"groups":{"update:comment"}}
+ *         },
+ *         "delete"={
+ *             "security"="is_granted('EDIT_COMMENT', object)"
+ *         }
  *     }
  * )
  * @ApiFilter(SearchFilter::class, properties={"post": "exact"})
@@ -70,7 +78,7 @@ class Comment
      *
      * @ORM\ManyToOne(targetEntity="Post", inversedBy="comments")
      * @ORM\JoinColumn(nullable=false)
-     * @Groups({"read:full:comment"})
+     * @Groups({"read:full:comment", "create:comment"})
      */
     private $post;
 
@@ -85,7 +93,7 @@ class Comment
      *     max=10000,
      *     maxMessage="comment.too_long"
      * )
-     * @Groups({"read:comment"})
+     * @Groups({"read:comment", "create:comment", "update:comment"})
      */
     private $content;
 

@@ -2,18 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7876ecc4-d73c-4b4f-98d4-57a9855351da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controller/Api/CommentCreateController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Security/CommentVoter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/comment/Comment.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/comment/hooks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/components/Icon.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Api/EmptyController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ModuleComment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ModuleComment.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/302c150c-bcf8-433e-bdc9-eebf535e8308.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/database.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/data/database.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/admin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/admin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/entrypoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/entrypoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/fa-brands-400.0fea2496.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/fa-brands-400.c967a94c.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/fa-brands-400.dc2cbadd.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/fa-brands-400.ec82f282.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/fa-regular-400.08f9891a.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/fa-regular-400.1008b522.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/fa-regular-400.1069ea55.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/fa-regular-400.1495f578.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/fa-solid-900.10ecefc2.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/fa-solid-900.3a24a60e.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/fa-solid-900.3ceb50e7.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/fa-solid-900.46fdbd2d.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/lato-bold-italic.3e6b9980.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/lato-bold-italic.e48918f9.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/lato-bold.21b3848a.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/lato-bold.89b61808.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/lato-normal-italic.62a9c838.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/lato-normal-italic.bb5de40e.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/lato-normal.1d2ca94d.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/fonts/lato-normal.75614cfc.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/images/fa-brands-400.e33e2cf6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/images/fa-regular-400.06b9d19c.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/images/fa-solid-900.371dbce0.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/runtime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/search.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Comment.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/post_show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/post_show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +202,9 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../chooseFrank" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
@@ -179,7 +220,25 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7876ecc4-d73c-4b4f-98d4-57a9855351da" name="Default Changelist" comment="" />
@@ -190,6 +249,8 @@
       <workItem from="1603874428820" duration="1884000" />
       <workItem from="1603877936299" duration="8626000" />
       <workItem from="1603963797398" duration="11986000" />
+      <workItem from="1606826351580" duration="462000" />
+      <workItem from="1607788589231" duration="14709000" />
     </task>
     <servers />
   </component>
@@ -201,29 +262,57 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="706" y="399" key="#Notifications/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1603883199918" />
-    <state x="552" y="238" width="816" height="855" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603898887799">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state x="552" y="215" width="816" height="855" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606830673874">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="552" y="215" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1606830673874" />
     <state x="552" y="238" width="816" height="855" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1603898887799" />
     <state x="764" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1603993237762">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="764" y="248" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1603993237762" />
-    <state x="740" y="334" key="FileChooserDialogImpl" timestamp="1603892586685">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state x="740" y="302" key="FileChooserDialogImpl" timestamp="1606830607995">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="740" y="302" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1606830607995" />
     <state x="740" y="334" key="FileChooserDialogImpl/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1603892586685" />
-    <state width="196" height="539" key="HiddenNamespacesPopup" timestamp="1603899000296">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1606828383363">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1606828383363" />
+    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1606828383362">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1606828383362" />
+    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1606828383362">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1606828383362" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1606828383363">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1606828383362" />
+    <state width="196" height="488" key="HiddenNamespacesPopup" timestamp="1606830633873">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="196" height="488" key="HiddenNamespacesPopup/0.0.1920.1050@0.0.1920.1050" timestamp="1606830633873" />
     <state width="196" height="539" key="HiddenNamespacesPopup/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1603899000296" />
     <state x="461" y="224" key="SettingsEditor" timestamp="1603898790836">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="461" y="224" key="SettingsEditor/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1603898790836" />
-    <state x="690" y="384" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog" timestamp="1603898338514">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state x="540" y="180" key="com.intellij.database.dbimport.ImportDialog" timestamp="1606831733466">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="540" y="180" key="com.intellij.database.dbimport.ImportDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1606831733466" />
+    <state x="690" y="348" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog" timestamp="1606831730877">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="690" y="348" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1606831730877" />
     <state x="690" y="384" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1603898338514" />
+    <state x="595" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1606827660875">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="595" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1606827660875" />
   </component>
 </project>
