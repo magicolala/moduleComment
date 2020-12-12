@@ -1,5 +1,5 @@
 import {render, unmountComponentAtNode} from 'react-dom';
-import React, {useEffect} from 'react';
+import React, {useEffectn, useState} from 'react';
 import {usePaginatedFetch} from "./hooks";
 import {Icon} from "../components/Icon";
 
@@ -39,11 +39,14 @@ const Comment = React.memo(({comment}) => {
 });
 
 function CommentForm({post}) {
+    const [content, setContent] = useState(null);
+
     return <div className="well">
         <form>
             <fieldset><Icon icon="comment"/> Laisser un commentaire</fieldset>
             <div className="form-group">
-                <textarea name="" id="" cols="30" rows="10" className="form-control"></textarea>
+                <textarea value={content} name="" id="" cols="30" rows="10" className="form-control"
+                          onChange={e => setContent(e.target.value)}></textarea>
                 <div className="help-block">Les commentaires non-conformes à notre code de conduite seront modérés.
                 </div>
                 <div className="form-group">
